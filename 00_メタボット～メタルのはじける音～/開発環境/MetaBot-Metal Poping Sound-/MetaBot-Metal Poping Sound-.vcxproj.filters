@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="コードファイル">
+      <UniqueIdentifier>{4f45ca26-2387-4603-8ecf-d21436edd747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コードファイル\ソースファイル">
+      <UniqueIdentifier>{06307cd3-cd28-4cf3-9dd1-0f2d30dde276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コードファイル\ヘッダーファイル">
+      <UniqueIdentifier>{1215ca1d-4d76-42b9-9df3-7183a818fc4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コードファイル\ソースファイル\manager">
+      <UniqueIdentifier>{32396996-0bdc-4bf8-a1eb-679ef62de90c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コードファイル\ソースファイル\master">
+      <UniqueIdentifier>{6669aad0-2189-44bc-9cb1-78bb33be1fbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コードファイル\ソースファイル\helper">
+      <UniqueIdentifier>{ee506bb3-73e0-499a-9139-fa38ea6c6452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コードファイル\ヘッダーファイル\manager">
+      <UniqueIdentifier>{78b37ab5-78b6-42e3-b0c2-fe18a505d494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コードファイル\ヘッダーファイル\game obgect">
+      <UniqueIdentifier>{96484e1e-9300-4f52-ad60-5e034ab788eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コードファイル\ソースファイル\game object">
+      <UniqueIdentifier>{b0d71aca-4f34-4ec2-9624-60986b73737b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コードファイル\ヘッダーファイル\master">
+      <UniqueIdentifier>{ee617c8e-c7ce-4eb5-9fd9-9314fcf6bcbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コードファイル\ヘッダーファイル\helper">
+      <UniqueIdentifier>{0a746e12-4c33-44ee-a893-8efa303d635a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コードファイル\ソースファイル\master\obuject master">
+      <UniqueIdentifier>{2ce41ba3-c034-42de-a9fd-a37828cea992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コードファイル\ソースファイル\manager\summary">
+      <UniqueIdentifier>{529bc4c0-e007-4562-9f38-7d11b542067a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コードファイル\ソースファイル\manager\seens">
+      <UniqueIdentifier>{ded97bbb-bec4-45d8-9cfe-e998bc60cd91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コードファイル\ヘッダーファイル\manager\summary">
+      <UniqueIdentifier>{7187db68-c5ea-4be4-b7e4-5be9800bf25b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コードファイル\ヘッダーファイル\manager\seens">
+      <UniqueIdentifier>{60740e8b-aefa-42fd-a071-395393d3b7d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コードファイル\ヘッダーファイル\master\object master">
+      <UniqueIdentifier>{d45a9b10-8516-4c06-95c9-31a68ead70e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コードファイル\ソースファイル\manager\user interface">
+      <UniqueIdentifier>{f4a60d41-94fb-4778-b329-700d12b47122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コードファイル\ヘッダーファイル\manager\user interface">
+      <UniqueIdentifier>{57920ea7-875a-49d4-a845-0b2e38c62ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コードファイル\ヘッダーファイル\manager\seens\game">
+      <UniqueIdentifier>{ec477cc8-c31c-46cd-9856-7edaa6c2f9c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コードファイル\ソースファイル\manager\seens\game">
+      <UniqueIdentifier>{673195f0-ed97-4421-904b-71fa01807840}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="motion.cpp">
+      <Filter>コードファイル\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="shadow.cpp">
+      <Filter>コードファイル\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>コードファイル\ソースファイル\master</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>コードファイル\ソースファイル\game object</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>コードファイル\ソースファイル\game object</Filter>
+    </ClCompile>
+    <ClCompile Include="meshifeld.cpp">
+      <Filter>コードファイル\ソースファイル\game object</Filter>
+    </ClCompile>
+    <ClCompile Include="bilding.cpp">
+      <Filter>コードファイル\ソースファイル\game object</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>コードファイル\ソースファイル\game object</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>コードファイル\ソースファイル\game object</Filter>
+    </ClCompile>
+    <ClCompile Include="ui.cpp">
+      <Filter>コードファイル\ソースファイル\manager\user interface</Filter>
+    </ClCompile>
+    <ClCompile Include="score.cpp">
+      <Filter>コードファイル\ソースファイル\manager\user interface</Filter>
+    </ClCompile>
+    <ClCompile Include="bg.cpp">
+      <Filter>コードファイル\ソースファイル\manager\user interface</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>コードファイル\ソースファイル\manager\user interface</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>コードファイル\ソースファイル\master\obuject master</Filter>
+    </ClCompile>
+    <ClCompile Include="object2d.cpp">
+      <Filter>コードファイル\ソースファイル\master\obuject master</Filter>
+    </ClCompile>
+    <ClCompile Include="object3d.cpp">
+      <Filter>コードファイル\ソースファイル\master\obuject master</Filter>
+    </ClCompile>
+    <ClCompile Include="objectx.cpp">
+      <Filter>コードファイル\ソースファイル\master\obuject master</Filter>
+    </ClCompile>
+    <ClCompile Include="helperfunction.cpp">
+      <Filter>コードファイル\ソースファイル\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>コードファイル\ソースファイル\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="application.cpp">
+      <Filter>コードファイル\ソースファイル\manager\summary</Filter>
+    </ClCompile>
+    <ClCompile Include="ranking.cpp">
+      <Filter>コードファイル\ソースファイル\manager\seens</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>コードファイル\ソースファイル\manager\seens</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>コードファイル\ソースファイル\manager\seens</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>コードファイル\ソースファイル\manager\summary</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>コードファイル\ソースファイル\manager\summary</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>コードファイル\ソースファイル\manager\summary</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>コードファイル\ソースファイル\manager\seens\game</Filter>
+    </ClCompile>
+    <ClCompile Include="enemanager.cpp">
+      <Filter>コードファイル\ソースファイル\manager\seens\game</Filter>
+    </ClCompile>
+    <ClCompile Include="bildingmanager.cpp">
+      <Filter>コードファイル\ソースファイル\manager\seens\game</Filter>
+    </ClCompile>
+    <ClCompile Include="skybox.cpp">
+      <Filter>コードファイル\ソースファイル\game object</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>コードファイル\ソースファイル\game object</Filter>
+    </ClCompile>
+    <ClCompile Include="eatdescription.cpp">
+      <Filter>コードファイル\ソースファイル\game object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="motion.h">
+      <Filter>コードファイル\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow.h">
+      <Filter>コードファイル\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="bg.h">
+      <Filter>コードファイル\ヘッダーファイル\manager\user interface</Filter>
+    </ClInclude>
+    <ClInclude Include="bilding.h">
+      <Filter>コードファイル\ヘッダーファイル\game obgect</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>コードファイル\ヘッダーファイル\game obgect</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>コードファイル\ヘッダーファイル\game obgect</Filter>
+    </ClInclude>
+    <ClInclude Include="helperfunction.h">
+      <Filter>コードファイル\ヘッダーファイル\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>コードファイル\ヘッダーファイル\game obgect</Filter>
+    </ClInclude>
+    <ClInclude Include="meshifild.h">
+      <Filter>コードファイル\ヘッダーファイル\game obgect</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>コードファイル\ヘッダーファイル\master\object master</Filter>
+    </ClInclude>
+    <ClInclude Include="object2d.h">
+      <Filter>コードファイル\ヘッダーファイル\master\object master</Filter>
+    </ClInclude>
+    <ClInclude Include="object3d.h">
+      <Filter>コードファイル\ヘッダーファイル\master\object master</Filter>
+    </ClInclude>
+    <ClInclude Include="objectx.h">
+      <Filter>コードファイル\ヘッダーファイル\master\object master</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>コードファイル\ヘッダーファイル\game obgect</Filter>
+    </ClInclude>
+    <ClInclude Include="score.h">
+      <Filter>コードファイル\ヘッダーファイル\manager\user interface</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>コードファイル\ヘッダーファイル\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>コードファイル\ヘッダーファイル\manager\user interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>コードファイル\ヘッダーファイル\manager\user interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ranking.h">
+      <Filter>コードファイル\ヘッダーファイル\manager\seens</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>コードファイル\ヘッダーファイル\manager\seens</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>コードファイル\ヘッダーファイル\manager\seens</Filter>
+    </ClInclude>
+    <ClInclude Include="application.h">
+      <Filter>コードファイル\ヘッダーファイル\manager\summary</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>コードファイル\ヘッダーファイル\manager\summary</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>コードファイル\ヘッダーファイル\manager\summary</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>コードファイル\ヘッダーファイル\manager\summary</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>コードファイル\ヘッダーファイル\manager\seens\game</Filter>
+    </ClInclude>
+    <ClInclude Include="enemymanager.h">
+      <Filter>コードファイル\ヘッダーファイル\manager\seens\game</Filter>
+    </ClInclude>
+    <ClInclude Include="bildingmanager.h">
+      <Filter>コードファイル\ヘッダーファイル\manager\seens\game</Filter>
+    </ClInclude>
+    <ClInclude Include="skybox.h">
+      <Filter>コードファイル\ヘッダーファイル\game obgect</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>コードファイル\ヘッダーファイル\game obgect</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>コードファイル\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="eatdescription.h">
+      <Filter>コードファイル\ヘッダーファイル\game obgect</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
